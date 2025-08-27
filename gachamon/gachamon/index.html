@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="https://em-content.zobj.net/source/google/428/monkey_1f412.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="assets/style/main.css">
+  <link rel="stylesheet" href="assets/style/style.css">
+  <title>gachamon</title>
+</head>
+
+<body data-bs-theme="light">
+  <header>
+    <nav class="navbar bg-codeworks text-light gap-2 px-2">
+      <img src="https://em-content.zobj.net/source/google/428/monkey_1f412.png" height="45" alt="" loading="lazy">
+      <div><b>gachamon</b></div>
+      <div class="ms-auto" id="authstate"></div>
+      </div>
+      <section class="row">
+        <button onclick="app.GachamonsController.collectRandomGachamon()" class="btn btn-pink fw-bold">Gacha Gachamon!
+          💿</button>
+      </section>
+
+    </nav>
+  </header>
+
+
+  <main class="container-fluid">
+
+    <section id="cards-list" class="d-flex flex-wrap justify-content-center">
+
+    </section>
+    <section id="active-card" class="d-flex justify-content-center my-2">
+
+      <!-- creating a dummy section for bigCard -->
+      <section>
+        <!-- <div class="big-card">
+        <h3 class="text-end">Oslo</h3>
+        <img class="my-1" src="https://em-content.zobj.net/source/apple/419/orangutan_1f9a7.png" alt="Oslo">
+        <div><span class="bg-primary px-2 rounded-pill text-light">intellectual</span></div>
+        <div class="text-center">⭐️</div>
+      </div> -->
+      </section>
+
+
+
+
+
+
+
+  </main>
+
+  <footer class="fixed-bottom text-bg-dark">
+    <section id="my-cards" class="d-flex flex-wrap col-10 bg-dark p-3 rounded my-2">
+
+    </section>
+    <div class="text-center">
+      <p class="mb-0"><small>Made with <i class="mdi mdi-heart text-pink"></i> by CodeWorks</small></p>
+    </div>
+  </footer>
+
+  <!-- SECTION links for bootstrap, axios, and auth -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://cdn.auth0.com/js/auth0-spa-js/1.22/auth0-spa-js.production.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/jakeoverall/auth0provider-client/browser/Auth0Provider.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <!-- !SECTION -->
+  <!-- The start of our javascript -->
+  <script src="app/App.js" type="module"></script>
+
+</body>
+
+</html>
