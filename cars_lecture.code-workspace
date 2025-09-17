@@ -1,0 +1,24 @@
+{
+  "folders": [
+    {
+      "name": ".git",
+      "path": ".git"
+    },
+    {
+      "name": "cars_lecture",
+      "path": "cars_lecture"
+    },
+    {
+      "name": "gachamon",
+      "path": "gachamon"
+    },
+    {
+      "name": "promises-lecture",
+      "path": "promises-lecture"
+    },
+    {
+      "name": "secret-gov",
+      "path": "secret-gov"
+    }
+  ]
+}

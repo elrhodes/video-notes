@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="./assets/img/logo.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="assets/style/main.css">
+  <link rel="stylesheet" href="assets/style/style.css">
+  <title>redacted</title>
+</head>
+
+<body data-bs-theme="light">
+  <header>
+    <nav class="navbar bg-codeworks text-light gap-2 px-2">
+      <img src="./assets/img/logo.png" height="45" alt="" loading="lazy">
+      <div><b>redacted</b></div>
+      <div class="ms-auto" id="authstate"></div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container-fluid">
+
+    <section class="row">
+      <!-- STUB details display -->
+      <div id="active-case" class="col-md-9 border border-dark">
+
+        <!-- <div class="d-flex justify-content-between">
+          <h2>IGA-2B988</h2>
+          <p class="fw-bold fs-4">🤠IGA</p>
+        </div>
+        <p>08/31/1990</p>
+        <div class="p-2">
+          <p class="bg-white border rounded p-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus consectetur corrupti provident at consequatur? Laboriosam, dolore tempora quia vel veniam facere neque, eaque saepe esse dolor voluptatibus ad? Cumque, id!
+          </p>
+        </div> -->
+
+      </div>
+
+      <!-- STUB list display -->
+
+      <div class="col">
+        <p class=" fw-bold">Select a file</p>
+        <div class="fw-bold mb-2"><i class="mdi mdi-file"><span id="case-count">3</span></i></div>
+        <hr>
+
+        <!-- STUB case form -->
+        <form action="" class="row">
+          <div class="input-group">
+            <input type="text" class="form-control">
+            <button></button>
+          </div>
+        </form>
+
+
+        <section id="case-files-list" class="row">
+
+        </section>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="text-bg-dark">
+    <div class="text-center">
+      <p class="mb-0"><small>Made with <i class="mdi mdi-heart text-pink"></i> by CodeWorks</small></p>
+    </div>
+  </footer>
+
+  <!-- SECTION links for bootstrap, axios, and auth -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://cdn.auth0.com/js/auth0-spa-js/1.22/auth0-spa-js.production.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/jakeoverall/auth0provider-client/browser/Auth0Provider.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <!-- !SECTION -->
+  <!-- The start of our javascript -->
+  <script src="app/App.js" type="module"></script>
+
+</body>
+
+</html>

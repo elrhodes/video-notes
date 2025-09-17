@@ -1,0 +1,20 @@
+{
+  "folders": [
+    {
+      "name": ".git",
+      "path": ".git"
+    },
+    {
+      "name": "gachamon",
+      "path": "gachamon"
+    },
+    {
+      "name": "promises-lecture",
+      "path": "promises-lecture"
+    },
+    {
+      "name": "secret-gov",
+      "path": "secret-gov"
+    }
+  ]
+}
